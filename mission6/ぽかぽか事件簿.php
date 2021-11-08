@@ -1,8 +1,8 @@
 <?php
 
-    $dsn = 'mysql:dbname=tb230350db;host=localhost';
-    $user = 'tb-230350';
-    $password = '5kMuGP65HN';
+    $dsn = 'データベース名';
+    $user = 'ユーザー名';
+    $password = 'パスワード';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     $sql1 = "CREATE TABLE IF NOT EXISTS tblogin"
